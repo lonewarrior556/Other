@@ -6,8 +6,8 @@ import pickle
 print 'loaded successfull'
 def sendtext(message):
     # Your Account Sid and Auth Token from twilio.com/user/account     
-    account_sid = "AC37ba247f8aa60226af2e70d5d958d007"
-    auth_token  = "4df42e03649da308a5ac2c95edba73dc"
+    account_sid = "code here"
+    auth_token  = "Code here"
     client = TwilioRestClient(account_sid, auth_token)
 
     message = client.sms.messages.create(body=message,
